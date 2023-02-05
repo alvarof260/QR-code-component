@@ -52,3 +52,12 @@
   text-align: center; }
   .attribution a {
     color: #3e52a3; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .card {
+    width: 24rem;
+    height: 37.5rem; }
+    .card .card__box-image {
+      width: 21.5rem; }
+      .card .card__box-image .box-image__img {
+        width: 100%; } }

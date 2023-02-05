@@ -61,15 +61,23 @@
     }
 }
 
-
-
-
-
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
     a { 
         color: hsl(228, 45%, 44%); 
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .card{
+        width: 24rem;
+        height: 37.5rem;
+        .card__box-image{
+            width: 21.5rem;
+            .box-image__img{
+                width: 100%;
+            }
+        }
     }
 }
